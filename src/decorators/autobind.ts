@@ -1,4 +1,3 @@
-namespace App {
 	// autobind decorator
 	export function autobind(
 		originalMethod: any,
@@ -17,4 +16,3 @@ namespace App {
 		}
 		return replacementMethod;
 	}
-}
